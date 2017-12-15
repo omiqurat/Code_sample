@@ -136,11 +136,11 @@ class main():
 
 
 
-            button24= Tkinter.Button(toplevel1, text=" YES",width=30, command=YES)
-            button24.pack(side=BOTTOM,anchor=N,padx=20,pady=20)
+#             button24= Tkinter.Button(toplevel1, text=" YES",width=30, command=YES)
+#             button24.pack(side=BOTTOM,anchor=N,padx=20,pady=20)
 
-            button23= Tkinter.Button(toplevel1, text=" CANCEL",width=30, command=toplevel1.destroy)
-            button23.pack(side=BOTTOM,anchor=N,padx=20,pady=20)
+#             button23= Tkinter.Button(toplevel1, text=" CANCEL",width=30, command=toplevel1.destroy)
+#             button23.pack(side=BOTTOM,anchor=N,padx=20,pady=20)
 
 
         ######## COPY TO USB  BUTTON  FUNCTION #########
@@ -178,13 +178,13 @@ class main():
 
 
 
-        button11 = Tkinter.Button(toplevel0, text=" DELETE ",width=30,command=delete)
-        button11.pack(side=TOP,anchor=E,padx=20,pady=20)
+#         button11 = Tkinter.Button(toplevel0, text=" DELETE ",width=30,command=delete)
+#         button11.pack(side=TOP,anchor=E,padx=20,pady=20)
 
-        #
-        button12 = Tkinter.Button(toplevel0, text=" COPY TO USB  ",width=30,command=copy_to_USB)
-        button12.pack(side=TOP,anchor=E,padx=20,pady=20)
-        # #
+#         #
+#         button12 = Tkinter.Button(toplevel0, text=" COPY TO USB  ",width=30,command=copy_to_USB)
+#         button12.pack(side=TOP,anchor=E,padx=20,pady=20)
+#         # #
         button13= Tkinter.Button(toplevel0, text=" CLOSE ",width=30, command=toplevel0.destroy)
         button13.pack(side=TOP,anchor=E,padx=20,pady=20)
 
